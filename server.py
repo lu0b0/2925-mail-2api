@@ -113,7 +113,7 @@ class MailSession:
         return None
 
 
-app = FastAPI(title="Get 2925 email", version="1.0.0")
+app = FastAPI(title="Get 2925 email ", version="1.0.0")
 mail_session = MailSession()
 
 
